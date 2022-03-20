@@ -80,6 +80,7 @@ Cloud Setup
 2. Set up load balancer + CDN + SSL
    https://cloud.google.com/cdn/docs/setting-up-cdn-with-serverless#creating_the_load_balancer
    Make sure to create a serverless NEG (network endpoint group) during LB configuration
+3. Go to Cloud CDN and create an A record to point to the load balancer's address
 
 
 Disclaimer
