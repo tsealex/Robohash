@@ -72,6 +72,14 @@ The avatars used in "set5" were created by Pablo Stanley, for https://avataaars.
 They are "Free for personal and commercial use. 😇"
 
 
+Cloud Setup
+----------
+1. Set up service: 
+   https://cloud.google.com/build/docs/deploying-builds/deploy-cloud-run#required_iam_permissions
+   https://cloud.google.com/build/docs/deploying-builds/deploy-cloud-run#continuous_deployment
+2. Set up load balancer + CDN + SSL
+   https://cloud.google.com/cdn/docs/setting-up-cdn-with-serverless#creating_the_load_balancer
+   Make sure to create a serverless NEG (network endpoint group) during LB configuration
 
 
 Disclaimer
